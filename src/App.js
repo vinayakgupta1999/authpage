@@ -25,7 +25,7 @@ function App() {
                 <input type="email" name='email' placeholder="Email Address"/>
                 <input type="password" name='password' placeholder="Password"/>
                 <button>Login</button>
-                <a class="forgot-btn" href='#'>Forgot Password?</a>
+                <a class="forgot-btn" href='/#'>Forgot Password?</a>
             </form>
             :
             <form>
