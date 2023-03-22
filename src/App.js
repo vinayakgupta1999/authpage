@@ -16,8 +16,8 @@ function App() {
                 <p>SOME RANDOM TEXT, SOME RANDOM TEXT,SOME RANDOM TEXT,SOME RANDOM TEXT</p>
             </div>
             <div class="container-middle">
-                <span className={activeauth==='login'&&'active'} onClick={()=>{setActiveAuth('login')}}>Login</span>
-                <span className={activeauth==='signup'&&'active'} onClick={()=>{setActiveAuth('signup')}}>Signup</span>
+                <span className={activeauth==='login'?'active':'inactive'} onClick={()=>{setActiveAuth('login')}}>Login</span>
+                <span className={activeauth==='signup'?'active':'inactive'} onClick={()=>{setActiveAuth('signup')}}>Signup</span>
             </div>
             {
               activeauth==='login' ?
